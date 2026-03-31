@@ -26,3 +26,8 @@ string GetStatus(float bmi)
      else
         return "Obesity";
 }
+
+int main()
+{
+    return 0;
+}
