@@ -29,5 +29,10 @@ string GetStatus(float bmi)
 
 int main()
 {
+    float weight, height, bmi;
+
+    ReadData(weight, height);
+    bmi = CalculateBMI(weight, height);
+
     return 0;
 }
