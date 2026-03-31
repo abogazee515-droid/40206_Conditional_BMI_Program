@@ -18,7 +18,7 @@ float CalculateBMI(float weight, float height)
 string GetStatus(float bmi)
 {
     if (bmi < 18.5)
-        return "Underweight";
+        return "Underweight";ا
     else if (bmi < 25)
         return "Normal Weight";
     else if (bmi < 30)
@@ -31,8 +31,14 @@ int main()
 {
     float weight, height, bmi;
 
+    cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---\n\n";
+
     ReadData(weight, height);
     bmi = CalculateBMI(weight, height);
+
+    cout << "\n--- Hasil ---\n";
+    cout << "BMI Anda : " << bmi << endl;
+    cout << "Status   : " << GetStatus(bmi) << endl;
 
     return 0;
 }
