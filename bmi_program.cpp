@@ -23,6 +23,6 @@ string GetStatus(float bmi)
         return "Normal Weight";
     else if (bmi < 30)
         return "Excess Weight";
-    else
+     else
         return "Obesity";
 }
