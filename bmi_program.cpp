@@ -9,3 +9,8 @@ void ReadData(float &weight, float &height)
     cout << "Masukkan tinggi badan (meter): ";
     cin >> height;
 }
+// Function to calculate BMI
+float CalculateBMI(float weight, float height)
+{
+    return weight / (height * height);
+}
